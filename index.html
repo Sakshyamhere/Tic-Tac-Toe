@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <div class="container">
+    <div class="text">
+    <p class="center text" id="result">Player one is 'X' and Player two is '0'.</p></div>
+    <div class="interface">
+        <div class="row">
+            <input type="text" class="box" onclick="my_func1(); my_func();" name="box1" id="box1" readonly>
+            <input type="text" class="box" onclick="my_func2(); my_func();" name="box2" id="box2" readonly>
+            <input type="text" class="box" onclick="my_func3(); my_func();" name="box3" id="box3" readonly>
+        </div>
+        <div class="row">
+            <input type="text" class="box" onclick="my_func4(); my_func();" name="box4" id="box4" readonly>
+            <input type="text" class="box" onclick="my_func5(); my_func();" name="box5" id="box5" readonly>
+            <input type="text" class="box" onclick="my_func6(); my_func();" name="box6" id="box6" readonly>
+        </div>
+        <div class="row">
+            <input type="text" class="box" onclick="my_func7(); my_func();" name="box7" id="box7" readonly>
+            <input type="text" class="box" onclick="my_func8(); my_func();" name="box8" id="box8" readonly>
+            <input type="text" class="box" onclick="my_func9(); my_func();" name="box9" id="box9" readonly>
+        </div>
+    </div>
+    
+    <div class="btn">
+        <button type="button" onclick="my_reset()" id="button" class="button">Reset</button>
+    </div>
+    
+</div>
+</body>
+<script src="script.js"></script>
+</html>
